@@ -94,3 +94,23 @@ python
 Copy
 Edit
 decoded_sentence = decode_sequence(input_seq)
+
+# GPT-2 Fine-Tuned
+This project fine-tunes the GPT-2 model on Kanye West's lyrics to generate new lyrics in his style.
+
+# 🧑‍💻 Setup
+Install the necessary dependencies:
+
+bash
+Copy
+Edit
+pip install transformers datasets torch
+Upload the dataset (Kanye_West.txt) and place it in the data/ folder.
+
+# 🚀 Training
+Fine-tune GPT-2 on the lyrics using the provided scripts. The model will be saved in the ./model directory.
+
+# 🎵 Generate Lyrics
+Once the model is trained, you can generate new lyrics based on a prompt using the fine-tuned model.
+
+
