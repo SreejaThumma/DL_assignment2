@@ -22,14 +22,6 @@ The task is to train a sequence-to-sequence (seq2seq) model for transliteration,
 
 # Installation
 To run this project, you need to have Python and the necessary dependencies installed.
-
-# Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/seq2seq-transliteration.git
-cd seq2seq-transliteration
 # Install the required libraries:
 
 bash
